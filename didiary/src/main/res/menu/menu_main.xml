@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/reread"
+        android:title="다시읽기"
+        android:orderInCategory="100" />
+
+    <item android:id="@+id/del"
+        android:title="일기삭제"/>
+
+    <item android:id="@+id/size"
+        android:title="글씨크기">
+
+        <menu>
+            <item android:id="@+id/big" android:title="크게"/>
+            <item android:id="@+id/mid" android:title="보통"/>
+            <item android:id="@+id/small" android:title="작게"/>
+        </menu>
+    </item>
+</menu>
